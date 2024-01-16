@@ -1,4 +1,4 @@
-#Continuando con cadenas de caracteres
+# Continuando con cadenas de caracteres
 
 Nombre = "Jeremy" #declaracion de una variable
 Nombre += " " #usando el operador de asignacion (+ y =) puedo agregar caracteres a nuestra variable inicial

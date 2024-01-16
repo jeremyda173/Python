@@ -1,4 +1,4 @@
-#Programa para determinar los pares e impares
+# Programa para determinar los pares e impares
 
 Numero = int(input("Introduce un numero: "))
 

@@ -1,4 +1,4 @@
-#Contiuando con variables con números
+# Contiuando con variables con números
 
 print("Estoy realizando una suma")
 

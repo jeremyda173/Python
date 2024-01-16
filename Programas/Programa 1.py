@@ -1,4 +1,4 @@
-#Empezando
+# Empezando
 
 print("Hola soy Jeremy!") #para imprimir un string o cadena de texto
 

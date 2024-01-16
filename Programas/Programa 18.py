@@ -1,5 +1,5 @@
-#El metodo format() para la concatenacion 
-# ademas con este metodo puedo ordenar las variables poniendo los lugares en que se enncuentra esta 
+# El metodo format() para la concatenacion 
+# Ademas con este metodo puedo ordenar las variables poniendo los lugares en que se encuentra esta 
 
 Nombre = input("Escribe tu nombre: ")
 Edad = int(input("Escribe tu edad: "))

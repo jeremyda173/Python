@@ -1,4 +1,4 @@
-#Tipos de datos en python
+# Tipos de datos en python
 
 # 1) largo[long] y entero [int]
 
