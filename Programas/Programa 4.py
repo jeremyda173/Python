@@ -1,4 +1,4 @@
-#manipulacion de cadenas
+# Manipulacion de cadenas
 
 #Cadenas y Subcadenas
 
