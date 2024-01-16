@@ -1,4 +1,4 @@
-#Escribir un programa que muestre por pantalla el resultado de la siguiente operación aritmética (3+2/2*5)**2
+# Escribir un programa que muestre por pantalla el resultado de la siguiente operación aritmética (3+2/2*5)**2
 
 Num_1 = 3
 Num_2 = 2
