@@ -1,4 +1,4 @@
-#Programa para determinar cual numero es mayor
+# Programa para determinar cual numero es mayor
 
 Numero1 = int(input("Introduce el primer numero: \n"))
 Numero2 = int(input("Introduce el segundo numero: \n"))
