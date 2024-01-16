@@ -4,14 +4,14 @@
 
 print("Welcome")
 
-Nombre = input("Para empezar, ¿Cuál es nombre? ")
+Nombre = input("Para empezar, ¿Cuál es su nombre? ")
 
 Matematica = int(input(Nombre + " ¿Cuál es tu nota en Matemáticas? "))
 Ciencias = int(input(Nombre + "¿Cuál es tu nota en Ciencias? "))
 English = int(input(Nombre + "¿Cuál es tu nota en English? "))
 
 Total = (Matematica + Ciencias + English) / 3
- Total = int(Total)# para solo tomar el valor entero
+Total = int(Total)# para solo tomar el valor entero
 
 if Total >= 6 :
      print("Felicidades " + Nombre + ", pasaste de grado con un promedio de: ",round(Total,1), "Genial!!") #para que tome un valor despues del punto
