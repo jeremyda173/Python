@@ -1,4 +1,4 @@
-#Calculadora con una sola variable
+# Calculadora con una sola variable
 
 print("Elige una opcion para empezar: ")
 print("1. Suma")
