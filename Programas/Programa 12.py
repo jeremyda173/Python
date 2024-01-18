@@ -1,4 +1,4 @@
-#Operadores logicos
+# Operadores logicos
 
 # not o Negacion
 # or o Disyuncion
