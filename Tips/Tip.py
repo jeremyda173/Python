@@ -27,3 +27,11 @@ print(myStr.replace("Davo", "Jeremys"))
 print(myStr.count("o"))
 # Preguntas a mi String
 print(myStr.startswith("hello"))
+print(myStr.endswith("davo"))
+# Metodo split
+print(myStr.split())
+print(myStr.split(','))
+# Buscar un indice
+print(myStr.find('o'))
+# Buscar longitud
+print(len(myStr))
