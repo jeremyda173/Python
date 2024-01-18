@@ -35,3 +35,11 @@ print(myStr.split(','))
 print(myStr.find('o'))
 # Buscar longitud
 print(len(myStr))
+
+# Concatenacion
+
+print("My name is " + myStr)
+print("My name is %s" % myStr)
+print("My name is {}".format(myStr))
+print(f"My name is {myStr}")
+
