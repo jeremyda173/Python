@@ -28,3 +28,11 @@ for food in foods:
     if food == "bread":
         print("I can't eat it's")  # break
     print("\n" + food)
+
+# Cycle while
+contador = 0
+while contador < len(veggie_list):
+    print (veggie_list[contador])
+    contador += 1
+    print()
+
