@@ -19,4 +19,12 @@ print(persona1.comentario("Hola"))     # invocando el método comentario para ag
 
 class Email:
     def __init__(self):
-        self._enviado = False
+        self.enviado = False
+    def enviar_correo(self):
+        self.enviado = True
+
+mi_correo = Email()
+
+print(mi_correo.enviado)
+mi_correo.enviar_correo()
+print(mi_correo.enviado)
