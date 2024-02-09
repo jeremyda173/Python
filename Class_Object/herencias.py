@@ -11,11 +11,16 @@ class pokemon:
 
 class goku (pokemon):
     def ataque(self, tipoataque):
-        return '{} tipo de ataque'.format(self.nombre, tipoataque)
+        return '{} tipo de ataque: {}'.format(self.nombre, tipoataque)
     
 class charmander(pokemon):
     def ataque(self, tipoataque):
-        return '{} tipo de ataque'.format(self.nombre, tipoataque)
+        return '{} tipo de ataque: {}'.format(self.nombre, tipoataque)
 
 nuevo_pokemon = goku('boby', 'electrico')
 print(nuevo_pokemon.descripcion())
+print(nuevo_pokemon.ataque('super viento'))
+
+otro_pokemon = charmander('charmmy', 'fuego')
+print(otro_pokemon.descripcion())
+print(otro_pokemon.ataque('normal'))
