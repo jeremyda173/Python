@@ -99,38 +99,46 @@ except ValueError as e:
 class Calculadora:
     def __init__(self, numero):
         self.n = numero
-        self.datos = [0 for i in range(numero)]
+        self.datos = [0 for _ in range(numero)]
 
     def ingresardato(self):
-        num = [int(input('Ingrese dato: ' + str(i+1) + '=')) for i in range(self.n)]
+        self.datos = [int(input('Ingrese dato numero ' + str(i + 1) + ': ')) for i in range(self.n)]
+        return self.datos
 
 class op_basicas(Calculadora):
     def __init__(self):
         Calculadora.__init__(self, 2)
 
     def suma(self):
-        a, b = self.ingresardato()
+        a, b = self.datos
         s = a + b
-        print('El resultado de la suma = ', s)
+        print('El resultado de la suma =', s)
 
     def resta(self):
-        a, b = self.ingresardato()
+        a, b = self.datos
         r = a - b
         print('El resultado de la resta = ', r)
 
 class op_normales(Calculadora):
     def __init__(self):
-        Calculadora.__init__(self, )
+        Calculadora.__init__(self, 1)
 
     def Cuadrada(self):
         import math
         a, = self.datos
-        print ('El resultado de la cuadratura es=', math.sqrt(a))
+        print('El resultado de la cuadratura es= ', math.sqrt(a))
+
+ejemplo = op_basicas()
+ejemplo.ingresardato()
+ejemplo.suma()
 
 
+objeto = op_basicas() # Verificando las herencias
+print(isinstance(objeto, op_basicas)) # Metodo de comprobacion de herencias.
 
-                
-
+print(issubclass(Calculadora, op_basicas)) # Devuelve un false
+print(issubclass(op_basicas, Calculadora))  # Devuelve un True
+'''La primera es la subclase y la segunda es la clase padre'''
 
 
     
