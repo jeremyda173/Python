@@ -12,6 +12,9 @@ def redes():
     redes = ["Facebook", "Twitter", "Instagram"]
     return render_template('redes.html', redes=redes)
 
+@app.route('/Login')
+def login():
+    return render_template('login.html', login=login)
 
 # @app.route('/hello/<string:name>')
 # def hello(name):
