@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block body %}
+
+<div>
+    <input type="text" id="search-bar" placeholder="Search for a movie...">
+    
+<h1 class="title">Movies List: </h1>
+
+<table id="movies-list">
+  <tr>
+    <th onclick="sortTable(0)">Title</th>
+    <th onclick="sortTable(1)">Year</th>
+    <th>Genre</th>
+    <th>Rating</th>
+  </tr>
+</div>
+        
+{% endblock %}
