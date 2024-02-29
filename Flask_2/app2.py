@@ -8,7 +8,7 @@ def home():
 
 @app.route("/add")
 def add():
-    return render_template("add.html")
+    return render_template("add.html", methods=["GET", "POST"])
 
 if __name__ == '__main__':
     app.run(debug=True)
