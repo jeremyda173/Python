@@ -1,3 +1,13 @@
 {% extends "layout.html" %}
 
 {% block body block %}
+
+<div class="container">
+    <h1>Login</h1>
+    <form method="POST">
+        {{ form }}
+        <button type="submit">Submit</button>
+    </form>
+</div>
+
+{% endblock %}
