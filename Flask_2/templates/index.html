@@ -5,8 +5,15 @@
     <h1>Lista de tareas</h1>
 
 <ul>
-    <li>List 1</li>
-    <li>List 2</li>
+
+
+    {% for tarea in tareas %}
+    <li>{{ tarea }}</li>
+    {% endfor %}
+    {% comment %} <li>List 1</li>
+    <li>List 2</li> {% endcomment %}
+
+    
 </ul>
 
 <a href="{{ url_for('add') }}">Add new task</a>
