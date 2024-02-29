@@ -15,7 +15,7 @@ def add():
     else:
         tarea = request.form['task']
         tareas.append(tarea)
-        return redirect("/home")
+        return redirect("/")
     
 if __name__ == '__main__':
     app.run(debug=True)
