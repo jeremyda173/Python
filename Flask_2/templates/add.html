@@ -4,7 +4,7 @@
 
 <div class="container">
    <h1>Login</h1>
-    <form method="POST">
+    <form action="{{ url_for('add') }}" method="POST">
         <input type="text" name="tarea" placeholder="Add new task">
         <button type="submit">Submit</button>
     </form>
