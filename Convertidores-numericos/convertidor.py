@@ -24,7 +24,7 @@ def convertir():
     elif sistema_destino == 'Hexadecimal':
         resultado.set(hex(numero_decimal)[2:].upper()) #Se utiliza para convertir una cadena de texto a letras mayúsculas.
 
-# Configuración de la interfaz gráfica
+#Configuración de la interfaz gráfica
 root = tk.Tk()
 root.title("Convertidor de Sistemas Numéricos")
 
