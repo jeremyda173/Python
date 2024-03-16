@@ -35,7 +35,7 @@ tk.Label(root, text="Número:").grid(row=0, column=0, padx=5, pady=5)
 entrada = tk.Entry(root)
 entrada.grid(row=0, column=1, padx=5, pady=5)
 
-#Lista desplegable de sistemas numéricos de origen
+#Una Lista desplegando los sistemas numéricos de origen
 lista_origen = tk.StringVar(root)
 lista_origen.set("Decimal")
 tk.OptionMenu(root, lista_origen, "Decimal", "Binario", "Octal", "Hexadecimal").grid(row=0, column=2, padx=5, pady=5)
