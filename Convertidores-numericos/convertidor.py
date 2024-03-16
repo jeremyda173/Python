@@ -40,7 +40,7 @@ lista_origen = tk.StringVar(root)
 lista_origen.set("Decimal")
 tk.OptionMenu(root, lista_origen, "Decimal", "Binario", "Octal", "Hexadecimal").grid(row=0, column=2, padx=5, pady=5)
 
-# Lista desplegando los sistemas numéricos de destino
+#Una Lista desplegando los sistemas numéricos de destino
 lista_destino = tk.StringVar(root)
 lista_destino.set("Decimal")
 tk.OptionMenu(root, lista_destino, "Decimal", "Binario", "Octal", "Hexadecimal").grid(row=0, column=3, padx=5, pady=5)
