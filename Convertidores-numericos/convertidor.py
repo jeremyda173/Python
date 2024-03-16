@@ -22,7 +22,7 @@ def convertir():
     elif sistema_destino == 'Octal':
         resultado.set(oct(numero_decimal)[2:])
     elif sistema_destino == 'Hexadecimal':
-        resultado.set(hex(numero_decimal)[2:].upper())
+        resultado.set(hex(numero_decimal)[2:].upper()) #Se utiliza para convertir una cadena de texto a letras mayúsculas.
 
 # Configuración de la interfaz gráfica
 root = tk.Tk()
@@ -45,14 +45,14 @@ lista_destino = tk.StringVar(root)
 lista_destino.set("Decimal")
 tk.OptionMenu(root, lista_destino, "Decimal", "Binario", "Octal", "Hexadecimal").grid(row=0, column=3, padx=5, pady=5)
 
-# Botón de conversión
+#Botón de conversión
 tk.Button(root, text="Convertir", command=convertir).grid(row=0, column=4, padx=5, pady=5)
 
-# Etiqueta de resultado
+#Etiqueta de resultado
 resultado = tk.StringVar()
 tk.Label(root, text="Resultado:").grid(row=1, column=0, padx=5, pady=5)
 
 # Campo de resultado (solo lectura)
 tk.Entry(root, textvariable=resultado, state="readonly").grid(row=1, column=1, columnspan=4, padx=5, pady=5)
 
-root.mainloop()
+root.mainloop() # Inicia el bucle principal de la interfaz gráfica.
