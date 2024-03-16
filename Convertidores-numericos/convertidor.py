@@ -28,7 +28,7 @@ def convertir():
 root = tk.Tk()
 root.title("Convertidor de Sistemas Numéricos")
 
-# Etiqueta de entrada
+#Etiqueta de entrada
 tk.Label(root, text="Número:").grid(row=0, column=0, padx=5, pady=5)
 
 # Campo de entrada
