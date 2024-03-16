@@ -1,5 +1,5 @@
 
-import tkinter as tk
+import tkinter as tk #Es una biblioteca estándar de Python para crear interfaces gráficas de usuario (GUI).
 
 def convertir():
     numero = entrada.get()
