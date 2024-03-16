@@ -52,7 +52,7 @@ tk.Button(root, text="Convertir", command=convertir).grid(row=0, column=4, padx=
 resultado = tk.StringVar()
 tk.Label(root, text="Resultado:").grid(row=1, column=0, padx=5, pady=5)
 
-# Campo de resultado (solo lectura)
+#Campo de resultado (solo lectura)
 tk.Entry(root, textvariable=resultado, state="readonly").grid(row=1, column=1, columnspan=4, padx=5, pady=5)
 
 root.mainloop() # Inicia el bucle principal de la interfaz gráfica.
